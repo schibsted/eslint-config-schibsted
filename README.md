@@ -1,4 +1,4 @@
-# eslint-config-spt
+# eslint-config-spt [![Build Status](https://travis-ci.org/schibsted/eslint-config-spt.svg?branch=master)](https://travis-ci.org/schibsted/eslint-config-spt)
 
 A module to contain the SPT JavaScript linting rules for [ESLint](http://eslint.org/).
 
