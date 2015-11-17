@@ -22,7 +22,7 @@ const defaults = {
         'no-div-regex': 2,
         'no-else-return': 2,
         'no-empty-label': 2,
-        'no-eq-null': 2,
+        'no-eq-null': 0,
         'no-eval': 2,
         'no-extend-native': 0,
         'no-extra-bind': 2,
