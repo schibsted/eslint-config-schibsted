@@ -15,7 +15,7 @@ const defaults = {
         'block-scoped-var': 2,
         'curly': 2,
         'dot-notation': 2,
-        'eqeqeq': 2,
+        'eqeqeq': [2, "smart"],
         'guard-for-in': 2,
         'no-alert': 2,
         'no-caller': 2,
