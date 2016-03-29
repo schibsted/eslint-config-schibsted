@@ -2,11 +2,15 @@
 Turn off all ES6 features, including sub-settings such as modules.
 */
 
-const _ = require('lodash');
-const envEs6ModulesFalse = require('./env-es6-modules-false');
-const defaults = {
+module.exports = {
+    'extends': [
+        'spt/env-es6-modules-false'
+    ],
     'env': {
         'es6': false
+    },
+    'parserOptions': {
+        'ecmaVersion': 5
     },
     'rules': {
         'constructor-super': 0,
@@ -18,5 +22,3 @@ const defaults = {
         'prefer-const': 0
     }
 };
-
-module.exports = _.merge({}, envEs6ModulesFalse, defaults);

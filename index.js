@@ -1,7 +1,9 @@
-const _ = require('lodash');
-const envEs6 = require('./env-es6');
-const envNodeFalse = require('./env-node-false');
-const defaults = {
+module.exports = {
+    'extends': [
+        'spt/env-es6',
+        'spt/env-es6-modules-false',
+        'spt/env-node-false'
+    ],
     'env': {
         'browser': false,
         'jasmine': false,
@@ -17,11 +19,11 @@ const defaults = {
         'dot-notation': 2,
         'eqeqeq': 2,
         'guard-for-in': 2,
+        'keyword-spacing': 2,
         'no-alert': 2,
         'no-caller': 2,
         'no-div-regex': 2,
         'no-else-return': 2,
-        'no-empty-label': 2,
         'no-eq-null': 2,
         'no-eval': 2,
         'no-extend-native': 0,
@@ -30,7 +32,7 @@ const defaults = {
         'no-floating-decimal': 2,
         'no-implied-eval': 2,
         'no-iterator': 2,
-        'no-labels': 1,
+        'no-labels': 2,
         'no-lone-blocks': 2,
         'no-loop-func': 2,
         'no-multi-spaces': 0,
@@ -90,12 +92,9 @@ const defaults = {
         'padded-blocks': [2, 'never'],
         'quotes': [2, 'single'],
         'semi': [2, 'always'],
-        'space-after-keywords': [2, 'always'],
         'space-before-blocks': [2, 'always'],
         'spaced-comment': [2, 'always', { 'exceptions': ['eslint-disable', 'global', 'eslint', 'eslint-env'] }],
         'global-strict': 0,
-        'strict': [2, 'function']
+        'strict': [2, 'safe']
     }
 };
-
-module.exports = _.merge({}, envEs6, envNodeFalse, defaults);

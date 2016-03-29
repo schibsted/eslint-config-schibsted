@@ -1,20 +1,19 @@
 {
   "name": "eslint-config-spt",
-  "version": "1.0.7",
+  "version": "2.0.0",
   "description": "ESLint settings for SPT",
   "main": "index.js",
   "repository": "schibsted/eslint-config-spt",
   "scripts": {
     "test": "eslint -c index.js ."
   },
-  "peerDependencies": {
-    "eslint-plugin-react": ">=3.5.1 <4.x"
-  },
-  "dependencies": {
-    "lodash": "3.10.1"
-  },
   "devDependencies": {
-    "eslint": "^1.8.0"
+    "eslint": "^2.0.0",
+    "eslint-plugin-react": "^4.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^2.0.0",
+    "eslint-plugin-react": "^4.0.0"
   },
   "author": {
     "name" : "Jason Ellison",
