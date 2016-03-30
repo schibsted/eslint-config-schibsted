@@ -15,5 +15,9 @@
   },
   "devDependencies": {
     "eslint": "^1.8.0"
+  },
+  "author": {
+    "name" : "Jason Ellison",
+    "email" : "code@nosilleg.com"
   }
 }
