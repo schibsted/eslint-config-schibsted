@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-spt",
-  "version": "2.0.0",
+  "version": "1.0.7",
   "description": "ESLint settings for SPT",
   "main": "index.js",
   "repository": "schibsted/eslint-config-spt",
