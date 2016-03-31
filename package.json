@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-spt",
-  "version": "1.0.7",
+  "version": "2.0.0",
   "description": "ESLint settings for SPT",
   "main": "index.js",
   "repository": "schibsted/eslint-config-spt",
@@ -16,7 +16,7 @@
     "eslint-plugin-react": "^4.0.0"
   },
   "author": {
-    "name" : "Jason Ellison",
-    "email" : "code@nosilleg.com"
+    "name": "Jason Ellison",
+    "email": "code@nosilleg.com"
   }
 }
