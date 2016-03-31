@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "schibsted/eslint-config-spt",
   "scripts": {
-    "test": "eslint -c index.js ."
+    "test": "eslint ."
   },
   "devDependencies": {
     "eslint": "^2.0.0",

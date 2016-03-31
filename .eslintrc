@@ -1,9 +1,6 @@
 {
-  "env": {
-    "es6": true,
-    "node": true
-  },
-  "globals": {
-    "module": true
-  }
+    "extends": "spt",
+    "globals": {
+      "module": true
+    }
 }
