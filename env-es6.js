@@ -2,6 +2,9 @@ module.exports = {
     'env': {
         'es6': true
     },
+    'parserOptions': {
+        'ecmaVersion': 6
+    },
     'rules': {
         'constructor-super': 2,
         'generator-star-spacing': 0,

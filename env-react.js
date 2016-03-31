@@ -2,8 +2,10 @@ module.exports = {
     'plugins': [
         'react'
     ],
-    'ecmaFeatures': {
-        'jsx': true
+    'parserOptions': {
+        'ecmaFeatures': {
+            'jsx': true
+        }
     },
     'rules': {
         'react/display-name': 0,

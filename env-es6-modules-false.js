@@ -1,5 +1,5 @@
 module.exports = {
-    'ecmaFeatures': {
-        'modules': false
+    'parserOptions': {
+        'sourceType': 'script'
     }
 };
