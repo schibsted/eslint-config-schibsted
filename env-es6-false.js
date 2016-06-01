@@ -13,12 +13,12 @@ module.exports = {
         'ecmaVersion': 5
     },
     'rules': {
-        'constructor-super': 0,
-        'generator-star-spacing': 0,
-        'generator-star': 0,
-        'no-this-before-super': 0,
-        'no-var': 0,
-        'object-shorthand': 0,
-        'prefer-const': 0
+        'constructor-super': 'off',
+        'generator-star-spacing': 'off',
+        'generator-star': 'off',
+        'no-this-before-super': 'off',
+        'no-var': 'off',
+        'object-shorthand': 'off',
+        'prefer-const': 'off'
     }
 };
