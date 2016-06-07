@@ -4,7 +4,8 @@ module.exports = {
     ],
     'parserOptions': {
         'ecmaFeatures': {
-            'jsx': true
+            'jsx': true,
+            'experimentalObjectRestSpread': true
         }
     },
     'rules': {
@@ -18,7 +19,7 @@ module.exports = {
         'react/jsx-uses-vars': 2,
         'react/no-did-mount-set-state': [2, 'allow-in-func'],
         'react/no-did-update-set-state': 2,
-        'react/no-multi-comp': 2,
+        'react/no-multi-comp': [2, { 'ignoreStateless': true }],
         'react/no-unknown-property': 1,
         'react/prop-types': [1, { 'ignore': ['children', 'className'] }],
         'react/react-in-jsx-scope': 2,
