@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-spt",
+  "version": "2.0.0",
+  "description": "ESLint settings for SPT",
+  "main": "index.js",
+  "repository": "schibsted/eslint-config-spt",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^2.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^2.0.0"
+  },
+  "author": {
+    "name": "Jason Ellison",
+    "email": "code@nosilleg.com"
+  }
+}

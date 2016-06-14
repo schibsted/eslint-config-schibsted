@@ -4,10 +4,10 @@ A module to contain the SPT JavaScript linting rules for [ESLint](http://eslint.
 
 ## How to use
 
-First, install the npm package:
+There are 2 modules, `eslint-config-spt`, which is standalone, and `eslint-config-spt-react`, which requires `eslint-plugin-react`.
 
 ```bash
-npm install --save-dev eslint-config-spt
+npm install --save-dev eslint-config-spt-base
 ```
 
 Then add the `extends` option to your `.eslintrc`:
@@ -18,12 +18,18 @@ Then add the `extends` option to your `.eslintrc`:
 }
 ```
 
-For React.js rules you can add
+If it's a React project, install `eslint-config-spt`, `eslint-config-spt-react` and `eslint-plugin-react`.
+
+```bash
+npm install --save-dev eslint-config-spt eslint-config-spt-react eslint-plugin-react@4
+```
+
+Then add the `extends` option to your `.eslintrc`:
 ```json
 {
     "extends": [
         "spt",
-        "spt/env-react"
+        "spt-react"
     ]
 }
 ```
@@ -33,7 +39,8 @@ You can override specific settings by specifying them as normal. See <http://esl
 ## Publishing
 
 ```bash
-Update CHANGELOG
+# Make sure to only make do this in the package that has changed
+# Update CHANGELOG
 $ npm version <patch | minor | major>
 $ git push --tags origin master
 $ npm publish
@@ -134,7 +141,7 @@ To enable:
 ```json
 {
   "extends": [
-    "spt/env-react"
+    "spt-react"
   ]
 }
 ```
