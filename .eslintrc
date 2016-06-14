@@ -1,6 +1,9 @@
 {
-    "extends": "spt",
+    "extends": [
+        "spt",
+        "spt/env-node"
+    ],
     "globals": {
-      "module": true
+        "module": true
     }
 }

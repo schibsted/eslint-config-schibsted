@@ -1,19 +1,17 @@
 {
-  "name": "eslint-config-spt",
-  "version": "3.0.0-beta-1",
-  "description": "ESLint settings for SPT",
-  "main": "index.js",
+  "name": "spt-style",
+  "version": "0.0.0",
+  "description": "Meta package for ESLint settings for SPT",
   "repository": "schibsted/eslint-config-spt",
   "scripts": {
-    "test": "eslint ."
-  },
-  "devDependencies": {
-    "eslint": "^3.1.1",
-    "eslint-plugin-react": "^6.0.0-alpha.1"
-  },
-  "peerDependencies": {
-    "eslint": "^3.1.1",
-    "eslint-plugin-react": "^6.0.0-alpha.1"
+    "preinstall": "npm run install:config && npm run install:config-react",
+    "install:config": "cd packages/eslint-config-spt && npm prune && npm install",
+    "install:config-react": "cd packages/eslint-config-spt-react && npm prune && npm install",
+    "pretest": "npm link packages/eslint-config-spt",
+    "test": "npm run test:spt && npm run test:spt-react",
+    "posttest": "npm unlink packages/eslint-config-spt",
+    "test:spt": "cd packages/eslint-config-spt && npm test",
+    "test:spt-react": "cd packages/eslint-config-spt-react && npm test"
   },
   "author": {
     "name": "Jason Ellison",
