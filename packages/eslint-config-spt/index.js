@@ -1,9 +1,11 @@
+'use strict';
+
 module.exports = {
     'extends': [
-        'spt/env-es6',
-        'spt/env-es6-modules-false',
-        'spt/env-node-false'
-    ],
+        './env-es6.js',
+        './env-es6-modules-false.js',
+        './env-node-false.js'
+    ].map(require.resolve),
     'env': {
         'browser': false,
         'jasmine': false,
