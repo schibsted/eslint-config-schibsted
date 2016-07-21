@@ -11,9 +11,7 @@ module.exports = {
         'generator-star': 'off',
         'no-this-before-super': 'error',
         'no-var': 'error',
-        // TODO: bring back to 'error' when object-shorthand rule supports ES7 object spread.
-        // cf. https://github.com/eslint/eslint/issues/2486
-        'object-shorthand': 'warn',
+        'object-shorthand': 'error',
         'prefer-const': 'off'
     }
 };
