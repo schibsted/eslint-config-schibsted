@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Meta package for ESLint settings for SPT",
   "repository": "schibsted/eslint-config-spt",
+  "license": "MIT",
   "scripts": {
     "preinstall": "npm run install:config && npm run install:config-react",
     "install:config": "cd packages/eslint-config-spt && npm prune && npm install",
