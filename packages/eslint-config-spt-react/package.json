@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-spt-react",
-  "version": "0.0.1",
+  "version": "3.0.0-beta-1",
   "description": "ESLint settings for SPT React projects",
   "main": "index.js",
   "repository": "schibsted/eslint-config-spt",
