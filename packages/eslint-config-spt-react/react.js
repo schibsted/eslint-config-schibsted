@@ -18,14 +18,14 @@ module.exports = {
         'react/jsx-sort-prop-types': 'off',
         'react/jsx-uses-react': 'error',
         'react/jsx-uses-vars': 'error',
-        'react/no-did-mount-set-state': ['error', 'allow-in-func'],
+        'react/jsx-wrap-multilines': 'error',
+        'react/no-did-mount-set-state': 'error',
         'react/no-did-update-set-state': 'error',
         'react/no-multi-comp': 'error',
         'react/no-unknown-property': 'warn',
         'react/prop-types': ['warn', { 'ignore': ['children', 'className'] }],
         'react/react-in-jsx-scope': 'error',
         'react/self-closing-comp': 'error',
-        'react/wrap-multilines': 'error',
         'react/sort-comp': ['error', {
             'order': [
                 'constructor',
