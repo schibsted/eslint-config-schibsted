@@ -6,6 +6,7 @@ module.exports = {
     ],
     'parserOptions': {
         'ecmaFeatures': {
+            'experimentalObjectRestSpread': true,
             'jsx': true
         }
     },
@@ -21,7 +22,7 @@ module.exports = {
         'react/jsx-wrap-multilines': 'error',
         'react/no-did-mount-set-state': 'error',
         'react/no-did-update-set-state': 'error',
-        'react/no-multi-comp': 'error',
+        'react/no-multi-comp': ['error', { 'ignoreStateless': true }],
         'react/no-unknown-property': 'warn',
         'react/prop-types': ['warn', { 'ignore': ['children', 'className'] }],
         'react/react-in-jsx-scope': 'error',
