@@ -141,6 +141,7 @@ To enable:
 ```json
 {
   "extends": [
+    "spt",
     "spt-react"
   ]
 }
