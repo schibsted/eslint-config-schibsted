@@ -8,10 +8,10 @@
     "test": "eslint ."
   },
   "devDependencies": {
-    "eslint": "^3.4.0"
+    "eslint": "^3.12.2"
   },
   "peerDependencies": {
-    "eslint": "^3.4.0"
+    "eslint": "^3.12.2"
   },
   "author": {
     "name": "Jason Ellison",
