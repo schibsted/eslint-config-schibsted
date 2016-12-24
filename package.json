@@ -15,6 +15,10 @@
     "test:spt": "cd packages/eslint-config-spt && npm test",
     "test:spt-react": "cd packages/eslint-config-spt-react && npm test"
   },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "author": {
     "name": "Jason Ellison",
     "email": "code@nosilleg.com"
