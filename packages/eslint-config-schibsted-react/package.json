@@ -1,9 +1,9 @@
 {
-  "name": "eslint-config-spt-react",
+  "name": "eslint-config-schibsted-react",
   "version": "3.0.0",
   "description": "ESLint settings for SPT React projects",
   "main": "index.js",
-  "repository": "schibsted/eslint-config-spt",
+  "repository": "schibsted/eslint-config-schibsted",
   "license": "MIT",
   "scripts": {
     "test": "eslint ."
