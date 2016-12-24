@@ -4,6 +4,7 @@
   "description": "ESLint settings for SPT",
   "main": "index.js",
   "repository": "schibsted/eslint-config-spt",
+  "license": "MIT",
   "scripts": {
     "test": "eslint ."
   },
