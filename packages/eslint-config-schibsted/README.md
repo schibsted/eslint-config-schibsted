@@ -16,20 +16,7 @@ Then add the `extends` option to your `.eslintrc`:
 }
 ```
 
-If it's a React project, install `eslint-config-schibsted`, `eslint-config-schibsted-react` and `eslint-plugin-react`.
-
-```bash
-npm install --save-dev eslint-config-schibsted eslint-config-schibsted-react eslint-plugin-react@4
-```
-
-Then add the `extends` option to your `.eslintrc`:
-```json
-{
-    "extends": [
-        "schibsted",
-        "schibsted-react"
-    ]
-}
-```
-
 You can override specific settings by specifying them as normal. See <http://eslint.org/docs/developer-guide/shareable-configs> for more details.
+
+### React
+If you use React, install `eslint-config-schibsted-react` as well.
