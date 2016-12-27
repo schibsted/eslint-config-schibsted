@@ -1,18 +1,20 @@
 {
-  "name": "eslint-config-spt",
+  "name": "eslint-config-schibsted-react",
   "version": "3.0.0",
-  "description": "ESLint settings for SPT",
+  "description": "ESLint settings for SPT React projects",
   "main": "index.js",
-  "repository": "schibsted/eslint-config-spt",
+  "repository": "schibsted/eslint-config-schibsted",
   "license": "MIT",
   "scripts": {
     "test": "eslint ."
   },
   "devDependencies": {
-    "eslint": "^3.12.2"
+    "eslint": "^3.12.2",
+    "eslint-plugin-react": "^6.8.0"
   },
   "peerDependencies": {
-    "eslint": "^3.12.2"
+    "eslint": "^3.12.2",
+    "eslint-plugin-react": "^6.8.0"
   },
   "keywords": [
     "eslint",

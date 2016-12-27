@@ -1,9 +1,6 @@
 {
     "extends": [
-        "spt",
-        "spt/env-node"
-    ],
-    "globals": {
-        "module": true
-    }
+        "schibsted",
+        "schibsted/env-node"
+    ]
 }
