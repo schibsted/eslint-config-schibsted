@@ -6,14 +6,12 @@
   "repository": "schibsted/eslint-config-schibsted",
   "license": "MIT",
   "scripts": {
-    "preinstall": "npm run install:config && npm run install:config-react",
-    "install:config": "cd packages/eslint-config-schibsted && npm prune && npm install",
-    "install:config-react": "cd packages/eslint-config-schibsted-react && npm prune && npm install",
-    "pretest": "npm link packages/eslint-config-schibsted",
-    "test": "npm run test:schibsted && npm run test:schibsted-react",
-    "posttest": "npm unlink packages/eslint-config-schibsted",
-    "test:schibsted": "cd packages/eslint-config-schibsted && npm test",
-    "test:schibsted-react": "cd packages/eslint-config-schibsted-react && npm test"
+    "install": "npm run install:eslint-config-schibsted && npm run install:eslint-config-schibsted-react",
+    "install:eslint-config-schibsted": "cd packages/eslint-config-schibsted && yarn",
+    "install:eslint-config-schibsted-react": "cd packages/eslint-config-schibsted-react && yarn",
+    "test": "npm run test:eslint-config-schibsted && npm run test:eslint-config-schibsted-react",
+    "test:eslint-config-schibsted": "cd packages/eslint-config-schibsted && npm test",
+    "test:eslint-config-schibsted-react": "cd packages/eslint-config-schibsted-react && npm test"
   },
   "author": {
     "name": "Jason Ellison",
