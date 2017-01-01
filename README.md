@@ -41,7 +41,10 @@ You can override specific settings by specifying them as normal. See <http://esl
 We use Yarn for installation.
 It is recommended to install Yarn using the native installation method for your environment.
 See https://yarnpkg.com/en/docs/install
-So do a `npm i -g yarn` if you don't have it already.
+So don't do a `npm i -g yarn`. Use `brew update && brew install yarn` on mac
+or see [yarn installation guide](https://yarnpkg.com/en/docs/install) for more info.
+*For travis, we rely on [the existence of `yarn.lock` in the root]
+(https://blog.travis-ci.com/2016-11-21-travis-ci-now-supports-yarn) to do the heavy work.*
 Then simply run `npm t` from the root to test all packages in `packages` dir.
 
 
