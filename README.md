@@ -36,6 +36,15 @@ Then add the `extends` option to your `.eslintrc`:
 
 You can override specific settings by specifying them as normal. See <http://eslint.org/docs/developer-guide/shareable-configs> for more details.
 
+## Testing
+
+We use Yarn for installation.
+It is recommended to install Yarn using the native installation method for your environment.
+See https://yarnpkg.com/en/docs/install
+So do a `npm i -g yarn` if you don't have it already.
+Then simply run `npm t` from the root to test all packages in `packages` dir.
+
+
 ## Publishing
 
 ```bash
