@@ -1,7 +1,7 @@
 {
   "name": "schibsted-style",
   "version": "0.0.0",
-  "description": "Meta package for ESLint settings for SPT",
+  "description": "Meta package for ESLint settings for Schibsted",
   "private": true,
   "repository": "schibsted/eslint-config-schibsted",
   "license": "MIT",
