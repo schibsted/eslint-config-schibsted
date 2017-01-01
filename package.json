@@ -6,12 +6,10 @@
   "repository": "schibsted/eslint-config-schibsted",
   "license": "MIT",
   "scripts": {
-    "preinstall": "npm run install:config && npm run install:config-react",
-    "install:config": "cd packages/eslint-config-schibsted && npm prune && npm install",
-    "install:config-react": "cd packages/eslint-config-schibsted-react && npm prune && npm install",
-    "pretest": "npm link packages/eslint-config-schibsted",
+    "install": "npm run install:schibsted && npm run install:schibsted-react",
+    "install:schibsted": "cd packages/eslint-config-schibsted && yarn",
+    "install:schibsted-react": "cd packages/eslint-config-schibsted-react && yarn",
     "test": "npm run test:schibsted && npm run test:schibsted-react",
-    "posttest": "npm unlink packages/eslint-config-schibsted",
     "test:schibsted": "cd packages/eslint-config-schibsted && npm test",
     "test:schibsted-react": "cd packages/eslint-config-schibsted-react && npm test"
   },
