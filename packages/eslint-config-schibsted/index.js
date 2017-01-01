@@ -96,7 +96,6 @@ module.exports = {
         'semi': ['error', 'always'],
         'space-before-blocks': ['error', 'always'],
         'spaced-comment': ['error', 'always', { 'exceptions': ['eslint-disable', 'global', 'eslint', 'eslint-env'] }],
-        'global-strict': 'off',
         'strict': ['error', 'safe']
     }
 };
