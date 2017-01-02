@@ -6,7 +6,8 @@
   "repository": "schibsted/eslint-config-schibsted",
   "license": "MIT",
   "scripts": {
-    "test": "eslint ."
+    "test": "eslint .",
+    "fix": "eslint . --fix"
   },
   "devDependencies": {
     "eslint": "^3.12.2",
