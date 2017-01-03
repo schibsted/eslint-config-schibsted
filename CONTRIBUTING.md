@@ -12,6 +12,10 @@ If you work at Schibsted you can discuss it right at `#eslint-config-schibst` Sl
 changes you are proposing. Add anything that justifies your case like code examples, links to
 documentation or relevant discussion/blog posts.
 
+### Write great commit messages
+You should only change one thing in each commit. The commit message should clearly state 
+what changed and (when it exist) include the issue-id where the discussion took place. 
+
 # Make a PR
 
 If there's consensus for implementing your feature, you may go ahead and make a PR.
