@@ -2,6 +2,10 @@
 
 A module to contain the Schibsted JavaScript linting rules for [ESLint](http://eslint.org/).
 
+## Contributing
+
+If you want to contribute, [read more here](CONTROBUTING.md).
+
 ## How to use
 
 There are 2 modules, `eslint-config-schibsted`, which is standalone, and `eslint-config-schibsted-react`, which requires `eslint-plugin-react`.
