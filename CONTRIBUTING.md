@@ -12,7 +12,15 @@ If you work at Schibsted you can discuss it right at `#eslint-config-schibst` Sl
 changes you are proposing. Add anything that justifies your case like code examples, links to
 documentation or relevant discussion/blog posts.
 
-## Publishing
+# Make a PR
+
+If there's consensus for implementing your feature, you may go ahead and make a PR.
+Travis with automatically run tests on your branch/PR.
+Just make sure you refer to the relevant issue numbers in the commits you're making.
+Once the PR receives LGTM from the maintainers, it'll be merged and published with appropriate
+semvers.
+
+# Publishing
 
 ```bash
 # Make sure to only make do this in the package that has changed
