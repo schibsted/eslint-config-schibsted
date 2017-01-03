@@ -48,16 +48,6 @@ or see [yarn installation guide](https://yarnpkg.com/en/docs/install) for more i
 Then simply run `npm t` from the root to test all packages in `packages` dir.
 
 
-## Publishing
-
-```bash
-# Make sure to only make do this in the package that has changed
-# Update CHANGELOG
-$ npm version <patch | minor | major>
-$ git push --tags origin master
-$ npm publish
-```
-
 ### Subdirectories
 ESLint configuration supports [cascading with hierarchy](http://eslint.org/docs/user-guide/configuring#configuration-cascading-and-hierarchy). Every directory can have an `.eslintrc` file which overwrites settings included in `.eslintrc` files further up the tree.  As such you should set rules for required syntax as close to the code that uses that syntax as possible.
 
