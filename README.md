@@ -4,7 +4,7 @@ A module to contain the Schibsted JavaScript linting rules for [ESLint](http://e
 
 ## Contributing
 
-If you want to contribute, [read more here](CONTROBUTING.md).
+If you want to contribute, [read more here](CONTRIBUTING.md).
 
 ## How to use
 
