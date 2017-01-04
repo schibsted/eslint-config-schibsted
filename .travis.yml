@@ -2,3 +2,11 @@ sudo: false
 language: node_js
 node_js: stable
 cache: yarn
+deploy:
+  provider: npm
+  email: hanifbbz@gmail.com
+  api_key:
+    secure: hAWYsgB/5XH/ZCosKMQwJgTQyO49Tphgby9czSrnFBqjODMCBrWn8y79nQMs0S4biDC/WMmiRnufk4L5rg5SpyxDPOUDr5kEWxDdgAVBD2Jgu483h+zX+RKos427JUdsE+2c/iDYlH43HH0T2gCgkqHuW+FXvC1jOcK6u+E53kCW7ya+mgB0bDJJQIsic9JAdV51nk3+yH+2XS/8XHsmFVoz1dBymLnIROtxBgQ2T2W9FA7aszZ/1JaPx4VwW38Gxbwgf+SFB/onylr182GHM6Tn2PBmUSNxlXjC8gz70A/M6is8t5OJS/IBTjcEPBnUEnen6jN3UHkLmrV3KAft8I9IRt4vcdQ5BRX3Un8+zaf3vcasAUL2ZiJD2EFOUZfuHdIXrwziMaI5pGeitCaio5XMk3yczxkpP4y+F6u6WVK0R7hUzHCq6dLeSA1FuQJh3r/CpwNVJvwJEboP4uUMVXab3laUkmOWhSIzZM3QnGHzPzjWTt/LLwAqKSiR3YhjQ0/4eXc5AogE+mu8ksBKLkkFtRcHVDAo1eMi4PUHsNZbOqV+5sxzKhnmHC72mSYD6bTSvbBW22IfJIuApIEF9JTqV9n/Vd1i7nMGqhEUZXX0oONNGmOOn2PpcpfzW9703IPJzaI6HZSxX0DqYP16z55fFx8HTqCpPeszE4fcGNg=
+  on:
+    tags: true
+    repo: schibsted/eslint-config-schibsted
