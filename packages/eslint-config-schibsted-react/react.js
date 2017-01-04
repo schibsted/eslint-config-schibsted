@@ -1,5 +1,7 @@
 'use strict';
 
+// TODO: these are airbnb's rules: https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react.js
+
 module.exports = {
     'plugins': [
         'react'
