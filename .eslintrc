@@ -1,6 +1,6 @@
 {
     "extends": [
-        "./packages/eslint-config-schibsted/index.js",
-        "./packages/eslint-config-schibsted/env-node.js"
+        "./packages/eslint-config-schibsted/base.js",
+        "./packages/eslint-config-schibsted/node-lts.js"
     ]
 }
