@@ -6,7 +6,7 @@
 module.exports = {
     'extends': [
         './env-es6.js'
-    ].map(require.resolve),
+    ],
     'parserOptions': {
         'sourceType': 'module'
     }

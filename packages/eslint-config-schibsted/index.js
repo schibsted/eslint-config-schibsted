@@ -5,7 +5,7 @@ module.exports = {
         './env-es6.js',
         './env-es6-modules-false.js',
         './env-node-false.js'
-    ].map(require.resolve),
+    ],
     'env': {
         'browser': false,
         'jasmine': false,
