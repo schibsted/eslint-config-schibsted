@@ -7,7 +7,7 @@ Turn off all ES6 features, including sub-settings such as modules.
 module.exports = {
     'extends': [
         './env-es6-modules-false'
-    ].map(require.resolve),
+    ],
     'env': {
         'es6': false
     },
