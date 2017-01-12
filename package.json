@@ -13,6 +13,10 @@
     "test:schibsted": "cd packages/eslint-config-schibsted && npm test",
     "test:schibsted-react": "cd packages/eslint-config-schibsted-react && npm test"
   },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "author": {
     "name": "Jason Ellison",
     "email": "code@nosilleg.com"
