@@ -9,10 +9,10 @@
     "test": "eslint ."
   },
   "devDependencies": {
-    "eslint": "^3.12.2"
+    "eslint": "^4.1.1"
   },
   "peerDependencies": {
-    "eslint": "^3.12.2"
+    "eslint": "^4.1.1"
   },
   "keywords": [
     "eslint",
