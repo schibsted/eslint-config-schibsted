@@ -54,6 +54,7 @@ module.exports = {
         'no-self-compare': 'error',
         'no-sequences': 'error',
         'no-throw-literal': 'error',
+        'no-unreachable': 'error',
         'no-unused-expressions': 'error',
         'no-void': 'error',
         'vars-on-top': 'error',
