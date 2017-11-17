@@ -5,17 +5,16 @@ A module to contain the SPT React linting rules for [ESLint](http://eslint.org/)
 ## How to use
 
 ```bash
-npm install --save-dev eslint-config-schibsted eslint-config-schibsted-react eslint-plugin-react@4
+yarn add eslint-config-schibsted eslint-config-schibsted-react eslint-plugin-react@7 -D
 ```
 
-Then add the `extends` option to your `.eslintrc`:
+Then add the `extends` option to your `.eslintrc.*`:
 
 ```json
 {
-    "extends": [
-        "schibsted",
-        "schibsted-react"
-    ]
+  "extends": [
+    "schibsted-react"
+  ]
 }
 ```
 

@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-schibsted",
+  "name": "eslint-config-schibsted-modules",
   "version": "5.0.0",
-  "description": "Schibsted ESLint settings",
+  "description": "Schibsted ESLint settings for ES6 modules files",
   "main": "index.js",
   "repository": "schibsted/eslint-config-schibsted",
   "license": "MIT",
@@ -11,11 +11,7 @@
   "dependencies": {
     "eslint": "^4.10.0",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-prettier": "^2.6.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-prettier": "^2.3.1",
-    "eslint-plugin-unicorn": "^2.1.2",
-    "prettier": "^1.7.4"
+    "eslint-plugin-import": "^2.8.0"
   },
   "peerDependencies": {
     "eslint": "^4.10.0"

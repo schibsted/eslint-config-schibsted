@@ -6,12 +6,26 @@
   "repository": "schibsted/eslint-config-schibsted",
   "license": "MIT",
   "scripts": {
-    "install": "npm run install:schibsted && npm run install:schibsted-react",
-    "install:schibsted": "cd packages/eslint-config-schibsted && yarn",
-    "install:schibsted-react": "cd packages/eslint-config-schibsted-react && yarn",
-    "test": "npm run test:schibsted && npm run test:schibsted-react",
-    "test:schibsted": "cd packages/eslint-config-schibsted && npm test",
-    "test:schibsted-react": "cd packages/eslint-config-schibsted-react && npm test"
+    "lint": "./packages/eslint-config-schibsted/node_modules/.bin/eslint . --ext .js --config ./packages/eslint-config-schibsted/prettier-strict.js --ignore-pattern node_modules",
+    "lint:fix": "./packages/eslint-config-schibsted/node_modules/.bin/eslint . --ext .js --config ./packages/eslint-config-schibsted/prettier-strict.js --ignore-pattern node_modules --fix && ./packages/eslint-config-schibsted/node_modules/.bin/prettier \"**/*.[js,jsx,json]\" --write",
+    "install": "yarn run install:schibsted && yarn run install:schibsted-chai && yarn run install:schibsted-flow && yarn run install:schibsted-modules && yarn run install:schibsted-node && yarn run install:schibsted-react",
+    "install:schibsted": "cd packages/eslint-config-schibsted && yarn install",
+    "install:schibsted-chai": "cd packages/eslint-config-schibsted-chai && yarn install",
+    "install:schibsted-flow": "cd packages/eslint-config-schibsted-flow && yarn install",
+    "install:schibsted-modules": "cd packages/eslint-config-schibsted-modules && yarn install",
+    "install:schibsted-node": "cd packages/eslint-config-schibsted-node && yarn install",
+    "install:schibsted-react": "cd packages/eslint-config-schibsted-react && yarn install",
+    "test": "yarn run test:schibsted && yarn run test:schibsted-chai && yarn run test:schibsted-flow && yarn run test:schibsted-modules && yarn run test:schibsted-node && yarn run test:schibsted-react",
+    "test:schibsted": "cd packages/eslint-config-schibsted && yarn test",
+    "test:schibsted-chai": "cd packages/eslint-config-schibsted-chai && yarn test",
+    "test:schibsted-flow": "cd packages/eslint-config-schibsted-flow && yarn test",
+    "test:schibsted-modules": "cd packages/eslint-config-schibsted-modules && yarn test",
+    "test:schibsted-node": "cd packages/eslint-config-schibsted-node && yarn test",
+    "test:schibsted-react": "cd packages/eslint-config-schibsted-react && yarn test"
+  },
+  "devDependencies": {
+    "eslint-config-schibsted": "file:./packages/eslint-config-schibsted",
+    "eslint-config-schibsted-node": "file:./packages/eslint-config-schibsted-node"
   },
   "author": {
     "name": "Jason Ellison",
