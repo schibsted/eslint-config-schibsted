@@ -1,21 +1,22 @@
 # eslint-config-schibsted-flow [![Build Status](https://travis-ci.org/schibsted/eslint-config-schibsted.svg?branch=master)](https://travis-ci.org/schibsted/eslint-config-schibsted)
 
-A module to contain the SPT flow type linting rules for [ESLint](http://eslint.org/).
+A module to contain the Schibsted Flow type linting rules for [ESLint](http://eslint.org/).
 
 ## How to use
 
+In addition to [installing the main package](../eslint-config-schibsted/README.md) you will need to install this package.
+
 ```bash
-yarn add eslint-config-schibsted eslint-config-schibsted-flow -D
+yarn add eslint-config-schibsted-flow -D
 ```
 
-Then add the `extends` option to your `.eslintrc`:
+Then add the `extends` option to your `.eslintrc.*`:
 
 ```json
 {
-    "extends": [
-        "spt",
-        "spt-flow"
-    ]
+  "extends": [
+    "schibsted-flow"
+  ]
 }
 ```
 

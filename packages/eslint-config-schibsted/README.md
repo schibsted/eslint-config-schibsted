@@ -62,7 +62,10 @@ If you would like code editors to show the errors as well, simply add `prettier-
 
 ```json
 {
-    "extends": "spt",
-    "extends": "spt/prettier-strict"
+    "extends": [
+      "schibsted",
+      "schibsted/prettier-strict"
+    ],
+    "root": true  
 }
 ```
