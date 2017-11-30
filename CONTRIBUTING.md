@@ -25,7 +25,7 @@ If the issue got positive feedback, you may go ahead and make a PR. Consider:
 
 * Please only change one thing in each commit.
 * The commit message should clearly state what changed (when it exist).
-* The commit message should include the issue-id where the discussion took place. 
+* The commit message should include the issue-id where the discussion took place.
 * Travis with automatically run tests on your PR branch.
 * Once the PR receives LGTM from the maintainers, it'll be merged and published with appropriate
 semvers.

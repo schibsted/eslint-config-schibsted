@@ -1,5 +1,5 @@
-'use strict';
+"use strict";
 
 module.exports = {
-    'extends': require.resolve('./react.js')
+  extends: ["./react.js", "./airbnb.js", "./prettier.js"].map(require.resolve)
 };
