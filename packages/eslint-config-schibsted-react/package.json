@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-schibsted-react",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "Schibsted ESLint settings for React files",
   "main": "index.js",
   "repository": "schibsted/eslint-config-schibsted",
@@ -9,12 +9,13 @@
     "test": "eslint ."
   },
   "dependencies": {
-    "eslint": "^4.10.0",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-react": "^7.5.1"
   },
   "peerDependencies": {
-    "eslint": "^4.10.0",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint": "^4.13.1",
+    "eslint-plugin-react": "^7.5.1"
   },
   "keywords": [
     "eslint",
