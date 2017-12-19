@@ -12,9 +12,6 @@
     "eslint": "^4.13.1",
     "eslint-plugin-flowtype": "^2.40.1"
   },
-  "peerDependencies": {
-    "eslint": "^4.13.1"
-  },
   "keywords": [
     "eslint",
     "eslintconfig",
