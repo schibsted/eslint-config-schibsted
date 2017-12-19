@@ -20,8 +20,6 @@
     "test:schibsted-react": "cd packages/eslint-config-schibsted-react && yarn test"
   },
   "devDependencies": {
-    "eslint-config-schibsted": "file:./packages/eslint-config-schibsted",
-    "eslint-config-schibsted-node": "file:./packages/eslint-config-schibsted-node",
     "lerna": "^2.5.1"
   },
   "author": {
