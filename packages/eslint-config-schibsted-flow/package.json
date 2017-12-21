@@ -13,11 +13,7 @@
     "eslint": "^4.13.1",
     "eslint-plugin-flowtype": "^2.40.1"
   },
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "flow"
-  ],
+  "keywords": ["eslint", "eslintconfig", "flow"],
   "author": {
     "name": "Jason Ellison",
     "email": "code@nosilleg.com"

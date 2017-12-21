@@ -3,21 +3,26 @@
   "version": "0.0.0",
   "description": "Meta package for ESLint settings for Schibsted",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": ["packages/*"],
   "repository": "schibsted/eslint-config-schibsted",
   "license": "MIT",
   "scripts": {
-    "lint": "./packages/eslint-config-schibsted/node_modules/.bin/eslint . --ext .js --config ./packages/eslint-config-schibsted/prettier-strict.js --ignore-pattern node_modules",
-    "lint:fix": "./packages/eslint-config-schibsted/node_modules/.bin/eslint . --ext .js --config ./packages/eslint-config-schibsted/prettier-strict.js --ignore-pattern node_modules --fix && ./packages/eslint-config-schibsted/node_modules/.bin/prettier \"**/*.[js,jsx,json]\" --write",
-    "test": "yarn run test:schibsted && yarn run test:schibsted-chai && yarn run test:schibsted-flow && yarn run test:schibsted-modules && yarn run test:schibsted-node && yarn run test:schibsted-react",
+    "lint": "eslint . --ext .js --ignore-pattern node_modules",
+    "lint:fix":
+      "eslint . --ext .js --config ./packages/eslint-config-schibsted/prettier-strict.js --ignore-pattern node_modules --fix && prettier \"**/*.{js,jsx,json}\" --write",
+    "test":
+      "yarn run test:schibsted && yarn run test:schibsted-chai && yarn run test:schibsted-flow && yarn run test:schibsted-modules && yarn run test:schibsted-node && yarn run test:schibsted-react",
     "test:schibsted": "cd packages/eslint-config-schibsted && yarn test",
-    "test:schibsted-chai": "cd packages/eslint-config-schibsted-chai && yarn test",
-    "test:schibsted-flow": "cd packages/eslint-config-schibsted-flow && yarn test",
-    "test:schibsted-modules": "cd packages/eslint-config-schibsted-modules && yarn test",
-    "test:schibsted-node": "cd packages/eslint-config-schibsted-node && yarn test",
-    "test:schibsted-react": "cd packages/eslint-config-schibsted-react && yarn test"
+    "test:schibsted-chai":
+      "cd packages/eslint-config-schibsted-chai && yarn test",
+    "test:schibsted-flow":
+      "cd packages/eslint-config-schibsted-flow && yarn test",
+    "test:schibsted-modules":
+      "cd packages/eslint-config-schibsted-modules && yarn test",
+    "test:schibsted-node":
+      "cd packages/eslint-config-schibsted-node && yarn test",
+    "test:schibsted-react":
+      "cd packages/eslint-config-schibsted-react && yarn test"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.3",

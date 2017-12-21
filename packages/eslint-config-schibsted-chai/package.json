@@ -12,12 +12,7 @@
     "eslint": "^4.13.1",
     "eslint-plugin-chai-friendly": "^0.4.1"
   },
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "chai",
-    "no-unused-expressions"
-  ],
+  "keywords": ["eslint", "eslintconfig", "chai", "no-unused-expressions"],
   "author": {
     "name": "Jason Ellison",
     "email": "code@nosilleg.com"
