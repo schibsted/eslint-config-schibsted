@@ -28,9 +28,7 @@ module.exports = {
     webextensions: false,
     greasemonkey: false
   },
-  extends: ["./airbnb.js", "./unicorn.js", "./prettier.js"].map(
-    require.resolve
-  ),
+  extends: ["./airbnb.js", "./unicorn.js", "./prettier.js"],
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: "script"

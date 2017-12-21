@@ -33,9 +33,6 @@ semvers.
 # Publishing
 
 ```bash
-# Make sure to only make do this in the package that has changed
-# Update CHANGELOG
-$ npm version <patch | minor | major>
-$ git push --tags origin master
-$ npm publish
+$ git pull
+$ yarn lerna publish
 ```

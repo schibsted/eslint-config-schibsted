@@ -1,3 +1,7 @@
+# 6.0.0
+- [deps] Update eslint-plugin-unicorn to v3
+- [deps] Minor dependencies update
+
 # 5.0.0
 - Use airbnb as initial extends
 - Use eslint-plugin-unicorn

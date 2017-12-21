@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-schibsted",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "Schibsted ESLint settings",
   "main": "index.js",
   "repository": "schibsted/eslint-config-schibsted",
@@ -9,21 +9,17 @@
     "test": "eslint ."
   },
   "dependencies": {
-    "eslint": "^4.10.0",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-prettier": "^2.6.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-prettier": "^2.3.1",
-    "eslint-plugin-unicorn": "^2.1.2",
-    "prettier": "^1.7.4"
+    "eslint-config-prettier": "^2.9.0"
   },
   "peerDependencies": {
-    "eslint": "^4.10.0"
+    "eslint": "^4.13.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.4.0",
+    "eslint-plugin-unicorn": "^3.0.1",
+    "prettier": "^1.9.2"
   },
-  "keywords": [
-    "eslint",
-    "eslintconfig"
-  ],
+  "keywords": ["eslint", "eslintconfig"],
   "author": {
     "name": "Jason Ellison",
     "email": "code@nosilleg.com"

@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-  extends: ["./airbnb.js"].map(require.resolve),
+  extends: ["./airbnb.js"],
   parserOptions: {
     sourceType: "module"
   }
