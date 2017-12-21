@@ -1,5 +1,5 @@
 "use strict";
 
 module.exports = {
-  extends: ["prettier"]
+  extends: ["eslint-config-prettier"].map(require.resolve)
 };

@@ -4,5 +4,5 @@ module.exports = {
   env: {
     node: true
   },
-  extends: ["./flowtype.js"].map(require.resolve)
+  extends: ["./flowtype.js"]
 };
