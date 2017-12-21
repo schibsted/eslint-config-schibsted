@@ -19,7 +19,10 @@
     "eslint-plugin-unicorn": "^3.0.1",
     "prettier": "^1.9.2"
   },
-  "keywords": ["eslint", "eslintconfig"],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "author": {
     "name": "Jason Ellison",
     "email": "code@nosilleg.com"
