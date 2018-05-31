@@ -5,7 +5,7 @@
     - [unicorn/error-message](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/error-message.md)
     - [unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-add-event-listener.md)
     - [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md)
- - Set [problematic unicorn rules](https://github.com/sindresorhus/eslint-plugin-unicorn/issues/151) to `off`
+  - Set [problematic unicorn rules](https://github.com/sindresorhus/eslint-plugin-unicorn/issues/151) to `off`
     - [unicorn/catch-error-name](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/catch-error-name.md)
     - [unicorn/custom-error-definition](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/custom-error-definition.md)
     - [unicorn/no-fn-reference-in-iterator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-fn-reference-in-iterator.md)
