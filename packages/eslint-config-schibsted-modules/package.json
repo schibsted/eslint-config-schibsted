@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-schibsted-modules",
-  "version": "6.0.0",
+  "version": "7.0.0-0",
   "description": "Schibsted ESLint settings for ES6 modules files",
   "main": "index.js",
   "repository": "schibsted/eslint-config-schibsted",
