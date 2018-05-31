@@ -1,3 +1,6 @@
+# 7.0.0
+- [deps] Minor dependencies update
+
 # 6.0.0
 - Fix add dependency for eslint-config-airbnb
 - [deps] Minor dependencies update

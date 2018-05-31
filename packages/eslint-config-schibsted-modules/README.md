@@ -7,7 +7,7 @@ A module to contain the Schibsted ES^ modules linting rules for [ESLint](http://
 In addition to [installing the main package](../eslint-config-schibsted/README.md) you will need to install this package.
 
 ```bash
-yarn add eslint-config-schibsted-modules eslint@^4.13.1 eslint-plugin-import@^2.8.0 -D
+yarn add eslint-config-schibsted-modules eslint@^4.19.1eslint-plugin-import@^2.12.0 -D
 ```
 
 Then add the `extends` option to your `.eslintrc.*`:

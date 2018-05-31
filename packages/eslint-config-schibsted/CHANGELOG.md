@@ -1,3 +1,22 @@
+# 7.0.0
+- set `ecmaVersion: 2018`
+- [deps] Update eslint-plugin-unicorn to v4
+ - Set new unicorn rules to `error`
+   - [unicorn/error-message](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/error-message.md)
+   - [unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-add-event-listener.md)
+   - [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md)
+ - Set [problematic unicorn rules](https://github.com/sindresorhus/eslint-plugin-unicorn/issues/151) to `off`
+   - [unicorn/catch-error-name](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/catch-error-name.md)
+   - [unicorn/custom-error-definition](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/custom-error-definition.md)
+   - [unicorn/no-fn-reference-in-iterator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-fn-reference-in-iterator.md)
+   - [unicorn/no-unsafe-regex](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unsafe-regex.md)
+- [deps] Update Prettier to v1.13
+ - [v1.10 changes](https://prettier.io/blog/2017/12/05/1.9.0.html)
+ - [v1.11 changes](https://prettier.io/blog/2018/02/26/1.11.0.html)
+ - [v1.12 changes](https://prettier.io/blog/2018/04/11/1.12.0.html)
+ - [v1.13 changes](https://prettier.io/blog/2018/05/27/1.13.0.html)
+- [deps] Minor dependencies update
+
 # 6.0.0
 - [deps] Update eslint-plugin-unicorn to v3
 - [deps] Minor dependencies update

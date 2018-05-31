@@ -9,7 +9,7 @@
     "test": "eslint ."
   },
   "peerDependencies": {
-    "eslint": "^4.13.1",
+    "eslint": "^4.19.1",
     "eslint-plugin-chai-friendly": "^0.4.1"
   },
   "keywords": [

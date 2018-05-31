@@ -3,40 +3,35 @@
   "version": "0.0.0",
   "description": "Meta package for ESLint settings for Schibsted",
   "private": true,
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "repository": "schibsted/eslint-config-schibsted",
   "license": "MIT",
   "scripts": {
     "lint": "eslint . --ext .js --ignore-pattern node_modules",
-    "lint:fix":
-      "eslint . --ext .js --config ./packages/eslint-config-schibsted/prettier-strict.js --ignore-pattern node_modules --fix && prettier \"**/*.{js,jsx,json}\" --write",
-    "test":
-      "yarn run test:schibsted && yarn run test:schibsted-chai && yarn run test:schibsted-flow && yarn run test:schibsted-modules && yarn run test:schibsted-node && yarn run test:schibsted-react",
+    "lint:fix": "eslint . --ext .js --config ./packages/eslint-config-schibsted/prettier-strict.js --ignore-pattern node_modules --fix && prettier \"**/*.{js,jsx,json}\" --write",
+    "test": "yarn run test:schibsted && yarn run test:schibsted-chai && yarn run test:schibsted-flow && yarn run test:schibsted-modules && yarn run test:schibsted-node && yarn run test:schibsted-react",
     "test:schibsted": "cd packages/eslint-config-schibsted && yarn test",
-    "test:schibsted-chai":
-      "cd packages/eslint-config-schibsted-chai && yarn test",
-    "test:schibsted-flow":
-      "cd packages/eslint-config-schibsted-flow && yarn test",
-    "test:schibsted-modules":
-      "cd packages/eslint-config-schibsted-modules && yarn test",
-    "test:schibsted-node":
-      "cd packages/eslint-config-schibsted-node && yarn test",
-    "test:schibsted-react":
-      "cd packages/eslint-config-schibsted-react && yarn test"
+    "test:schibsted-chai": "cd packages/eslint-config-schibsted-chai && yarn test",
+    "test:schibsted-flow": "cd packages/eslint-config-schibsted-flow && yarn test",
+    "test:schibsted-modules": "cd packages/eslint-config-schibsted-modules && yarn test",
+    "test:schibsted-node": "cd packages/eslint-config-schibsted-node && yarn test",
+    "test:schibsted-react": "cd packages/eslint-config-schibsted-react && yarn test"
   },
   "devDependencies": {
-    "babel-eslint": "^8.0.3",
-    "eslint": "^4.13.1",
-    "eslint-config-airbnb-base": "^10.0.0",
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-chai-friendly": "^0.4.1",
-    "eslint-plugin-flowtype": "^2.40.1",
-    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-flowtype": "^2.48.0",
+    "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-prettier": "^2.4.0",
-    "eslint-plugin-react": "^7.5.1",
-    "eslint-plugin-unicorn": "^3.0.1",
-    "lerna": "^2.5.1",
-    "prettier": "^1.9.2"
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.8.2",
+    "eslint-plugin-unicorn": "^4.0.3",
+    "lerna": "^2.11.0",
+    "prettier": "^1.13.3"
   },
   "author": {
     "name": "Jason Ellison",

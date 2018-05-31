@@ -7,7 +7,7 @@ A module to contain the Schibsted Chai linting rules for [ESLint](http://eslint.
 In addition to [installing the main package](../eslint-config-schibsted/README.md) you will need to install this package.
 
 ```bash
-yarn add eslint-config-schibsted-chai eslint@^4.13.1 eslint-plugin-chai-friendly@^0.4.1 -D
+yarn add eslint-config-schibsted-chai eslint@^4.19.1 eslint-plugin-chai-friendly@^0.4.1 -D
 ```
 
 Then add the `extends` option to your `.eslintrc.*`:
