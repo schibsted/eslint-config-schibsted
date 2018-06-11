@@ -1,0 +1,15 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "packages/eslint-config-schibsted-chai/package.json",
+        "packages/eslint-config-schibsted-flow/package.json",
+        "packages/eslint-config-schibsted-modules/package.json",
+        "packages/eslint-config-schibsted-node/package.json",
+        "packages/eslint-config-schibsted-react/package.json",
+        "packages/eslint-config-schibsted/package.json"
+      ]
+    }
+  }
+}
