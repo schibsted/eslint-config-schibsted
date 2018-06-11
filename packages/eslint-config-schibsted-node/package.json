@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-schibsted-node",
-  "version": "7.0.0-0",
+  "version": "7.0.0-1",
   "description": "Schibsted ESLint settings for Node.js files",
   "main": "index.js",
   "repository": "schibsted/eslint-config-schibsted",
