@@ -9,11 +9,11 @@
     "test": "eslint ."
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^12.1.0"
+    "eslint-config-airbnb-base": "^13.1.0"
   },
   "peerDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-plugin-import": "^2.12.0"
+    "eslint": "^5.5.0",
+    "eslint-plugin-import": "^2.14.0"
   },
   "keywords": [
     "eslint",

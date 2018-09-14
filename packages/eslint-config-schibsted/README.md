@@ -5,7 +5,7 @@ A module to contain the Schibsted JavaScript linting rules for [ESLint](http://e
 ## How to use
 
 ```bash
-yarn add eslint-config-schibsted eslint@^4.19.1 eslint-plugin-import@^2.12.0 eslint-plugin-prettier@^2.6.0 eslint-plugin-unicorn@^4.0.3 prettier@^1.13.5 -D
+yarn add eslint-config-schibsted eslint@^5.5.0 eslint-plugin-import@^2.14.0 eslint-plugin-prettier@^2.6.2 eslint-plugin-unicorn@^6.0.1 prettier@^1.14.2 -D
 ```
 
 Then add the `extends` option to your `.eslintrc.*`:
