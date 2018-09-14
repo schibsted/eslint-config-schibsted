@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-schibsted-react",
-  "version": "7.0.0-1",
+  "version": "7.0.0-2.0",
   "description": "Schibsted ESLint settings for React files",
   "main": "index.js",
   "repository": "schibsted/eslint-config-schibsted",
