@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-schibsted",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "Schibsted ESLint settings",
   "main": "index.js",
   "repository": "schibsted/eslint-config-schibsted",
@@ -9,15 +9,15 @@
     "test": "eslint ."
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-prettier": "^2.9.0"
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.1.0"
   },
   "peerDependencies": {
-    "eslint": "^4.13.1",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-prettier": "^2.4.0",
-    "eslint-plugin-unicorn": "^3.0.1",
-    "prettier": "^1.9.2"
+    "eslint": "^5.6.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-unicorn": "^6.0.1",
+    "prettier": "^1.14.3"
   },
   "keywords": [
     "eslint",

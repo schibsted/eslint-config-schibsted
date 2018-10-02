@@ -30,7 +30,7 @@ module.exports = {
   },
   extends: ["./airbnb.js", "./unicorn.js", "./prettier.js"],
   parserOptions: {
-    ecmaVersion: 2017,
+    ecmaVersion: 2018,
     sourceType: "script"
   },
   rules: {

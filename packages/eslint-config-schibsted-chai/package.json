@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-schibsted-chai",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "Schibsted ESLint settings for chai test files",
   "main": "index.js",
   "repository": "schibsted/eslint-config-schibsted",
@@ -9,7 +9,7 @@
     "test": "eslint ."
   },
   "peerDependencies": {
-    "eslint": "^4.13.1",
+    "eslint": "^5.6.1",
     "eslint-plugin-chai-friendly": "^0.4.1"
   },
   "keywords": [
