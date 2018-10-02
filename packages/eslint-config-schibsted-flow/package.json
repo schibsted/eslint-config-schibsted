@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-schibsted-flow",
-  "version": "7.0.0-3.0",
+  "version": "7.0.0",
   "description": "Schibsted ESLint settings for flow typed files",
   "main": "index.js",
   "repository": "schibsted/eslint-config-schibsted",
