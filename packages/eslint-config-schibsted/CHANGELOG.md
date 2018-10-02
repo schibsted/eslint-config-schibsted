@@ -21,12 +21,14 @@
     - [unicorn/no-fn-reference-in-iterator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-fn-reference-in-iterator.md)
     - [unicorn/no-unsafe-regex](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unsafe-regex.md)
   - Change the default name option of the catch-error-name rule to be error instead of err.
-- [deps] Update Prettier to v1.13
+- [deps] Update Prettier to v1.14
   - [v1.10 changes](https://prettier.io/blog/2017/12/05/1.9.0.html)
   - [v1.11 changes](https://prettier.io/blog/2018/02/26/1.11.0.html)
   - [v1.12 changes](https://prettier.io/blog/2018/04/11/1.12.0.html)
   - [v1.13 changes](https://prettier.io/blog/2018/05/27/1.13.0.html)
   - [v1.14 changes](https://prettier.io/blog/2018/07/29/1.14.0.html)
+- [deps] Update to eslint-plugin-prettier 3.0.0
+  - [breaking changes](https://github.com/prettier/eslint-plugin-prettier/blob/master/CHANGELOG.md#v300-2018-10-01)
 - [deps] Minor dependencies update
 
 # 6.0.0

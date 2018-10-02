@@ -7,7 +7,7 @@ A module to contain the Schibsted Flow type linting rules for [ESLint](http://es
 In addition to [installing the main package](../eslint-config-schibsted/README.md) you will need to install this package.
 
 ```bash
-yarn add eslint-config-schibsted-flow babel-eslint@^9.0.0 eslint@^5.5.0 eslint-plugin-flowtype@^2.50.0 -D
+yarn add eslint-config-schibsted-flow babel-eslint@^10.0.1 eslint@^5.6.1 eslint-plugin-flowtype@^2.50.3 -D
 ```
 
 Then add the `extends` option to your `.eslintrc.*`:

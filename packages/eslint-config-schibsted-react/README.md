@@ -7,7 +7,7 @@ A module to contain the Schibsted React linting rules for [ESLint](http://eslint
 In addition to [installing the main package](../eslint-config-schibsted/README.md) you will need to install this package.
 
 ```bash
-yarn add eslint-config-schibsted-react eslint@^5.5.0 eslint-plugin-import@^2.14.0 eslint-plugin-jsx-a11y@^6.1.1 eslint-plugin-react@^7.11.1 -D
+yarn add eslint-config-schibsted-react eslint@^5.6.1 eslint-plugin-import@^2.14.0 eslint-plugin-jsx-a11y@^6.1.1 eslint-plugin-react@^7.11.1 -D
 ```
 
 Then add the `extends` option to your `.eslintrc.*`:
