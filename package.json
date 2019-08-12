@@ -22,7 +22,7 @@
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^6.0.0",
-    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-chai-friendly": "^0.4.1",
     "eslint-plugin-flowtype": "^3.0.0",
     "eslint-plugin-import": "^2.14.0",
