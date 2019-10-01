@@ -9,7 +9,7 @@
     "test": "eslint ."
   },
   "dependencies": {
-    "eslint-config-airbnb": "^17.1.0"
+    "eslint-config-airbnb": "^18.0.1"
   },
   "peerDependencies": {
     "eslint": "^6.0.0",
