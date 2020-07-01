@@ -1,3 +1,9 @@
+# :rotating_light: Warning
+
+This repository is DEPRECATED and not maintained anymore.
+
+---
+
 # eslint-config-schibsted [![Build Status](https://travis-ci.org/schibsted/eslint-config-schibsted.svg?branch=master)](https://travis-ci.org/schibsted/eslint-config-schibsted)
 
 A module to contain the Schibsted JavaScript linting rules for [ESLint](http://eslint.org/).
